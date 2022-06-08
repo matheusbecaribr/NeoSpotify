@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.barra_lateral{
+    flex-direction: column;
+    position:  fixed;
+    padding: 1.5%;
+    background-color: black;
+    display: flex;
+    width: 9.5%;
+    height: 100vh;
+}
+
+#img_logo{
+    width: 70%;
+}
+
+.barra_lateral ul a{
+    flex-direction: column;
+    color: white;
+    text-decoration: none;
+}
