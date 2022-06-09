@@ -8,20 +8,10 @@
 
 .barra_lateral{
     position:  fixed;
-    padding: 1.5%;
     background-color: black;
-    width: 9.5%;
+    padding: 1.3%;
+    width: 10%;
     height: 100vh;
-}
-
-#img_logo{
-    width: 70%;
-    margin-bottom: 2.5vh;
-}
-
-#ul_barra_lateral{
-    text-decoration: none;
-    list-style: none;
 }
 
 .barra_lateral ul{
@@ -32,7 +22,21 @@
 }
 
 .barra_lateral ul li{
-    margin: 5%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 9%;
+}
+
+
+#img_logo{
+    width: 68%;
+    margin-bottom: 15%;
+}
+
+
+#ul_barra_lateral{
+    text-decoration: none;
+    list-style: none;
 }
 
 .barra_lateral ul li a{
@@ -45,13 +49,13 @@
 
 #home_icon{
     align-items: center;
-    width: 15%;
-    margin-right: 10px;
+    width: 13%;
+    margin-right: 8%;
 }
 
 #search_icon{
-    width: 15%;
-    margin-right: 10px;
+    width: 13%;
+    margin-right: 8%;
 }
 
 #search_barra_lateral{
@@ -63,8 +67,8 @@
 }
 
 #books_icon{
-    width: 15%;
-    margin-right: 10px;
+    width: 13%;
+    margin-right: 8%;
 }
 
 #books_barra_lateral{
@@ -73,4 +77,42 @@
 
 #books_barra_lateral:hover{
     opacity: 100%;
+}
+
+
+#ul_barra_lateral_part2{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+
+#create_barra_lateral{
+    opacity: 50%;
+}
+
+#create_barra_lateral:hover{
+    opacity: 100%;
+}
+
+#create_icon{
+    width: 13%;
+    margin-right: 8%;
+}
+
+#heart_icon{
+    width: 13%;
+    margin-right: 8%;
+}
+
+#heart_barra_lateral{
+    opacity: 50%;
+}
+
+#heart_barra_lateral:hover{
+    opacity: 100%;
+}
+
+
+.part1{
+    margin-bottom: 10%;
 }
